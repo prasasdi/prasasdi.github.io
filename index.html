@@ -1,41 +1,48 @@
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Main</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-</head>
-
 <header>
     <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="https://prasasdi.github.io">
-            <img src="https://getbootstrap.com/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-            ad1ee
-        </a>
+        <div class="container">
+            <a class="navbar-brand" href="https://prasasdi.github.io">
+                <img src="https://getbootstrap.com/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                ad1ee
+            </a>
+        </div>
+        
     </nav>
-<main>
-    <section id="home">
-        <h2>Beranda</h2>
-        <p>Ini adalah halaman beranda.</p>
-    </section>
-    <section id="about">
-        <h2>Tentang</h2>
-        <p>Ini adalah halaman tentang.</p>
-    </section>
-    <section id="contact">
-        <h2>Kontak</h2>
-        <p>Ini adalah halaman kontak.</p>
-    </section>
-</main>
+</header>
+<div class="container mt-5">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Main</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
 
-<footer>
-    <p>&copy; 2024 Nama Anda. Semua hak dilindungi.</p>
-</footer>
+    <main>
+        <section id="c-main">
+            <h1>It is I, ad1ee</h1>
+            <h4>who created this portal using just static HTML and JavaScript.</h2>
+            <p>Not really, this portal is powered by Github Pages while jekyll is here to generate static page. But basically it is only static HTML and Javascript.</p>
+        </section>
+        <section id="c-body">
+            <h2>Or is it?</h2>
+            <p>Anyway, how about <a class="thiss">Here</a> let's take a look what would happen.</p>
+        </section>
+    </main>
+    <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <p style="color:gray; font-size: 12px;">@ad1ee personal portofolios. <span id="c-bottom-nav"></span> Powered by Github Pages</p>
+        </div>
+    </nav>
+    <script>
+        // JavaScript to dynamically insert the current year
+        document.getElementById('c-bottom-nav').textContent = new Date().getFullYear();
+    </script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS dan dependensinya -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-<!-- Bootstrap JS dan dependensinya -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-<script src="index.js"></script>
+    <script src="index.js"></script>
+</div>
